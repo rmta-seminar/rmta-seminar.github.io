@@ -11,10 +11,10 @@
   function talkCard(talk, featured = false) {
     const abstract = talk.abstract.split(/\n\s*\n/).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("");
     const speaker = safeUrl(talk.website) ? `<a href="${safeUrl(talk.website)}" target="_blank" rel="noreferrer">${escapeHtml(talk.speaker)}</a>` : escapeHtml(talk.speaker);
-    const poster = talk.poster
-      ? `<button class="poster-button" type="button" data-poster="${escapeHtml(talk.slug)}" aria-label="Open poster for ${escapeHtml(talk.title)}"><img src="${posterPath(talk.poster)}" alt="Poster for ${escapeHtml(talk.speaker)}'s talk"><span>View poster</span></button>`
-      : `<div class="poster-placeholder" aria-label="Poster not available"><strong>RMTA</strong><span>Poster<br>not available</span></div>`;
-    return `<article class="talk-card${featured ? " featured" : ""}">${poster}<div class="talk-content"><p class="talk-date">${featured ? "Next talk · " : ""}${formatDate(talk, !featured)} · ${escapeHtml(talk.start)}–${escapeHtml(talk.end)} Beijing</p><h3>${escapeHtml(talk.title)}</h3><p class="speaker">${speaker} <span>— ${escapeHtml(talk.affiliation)}</span></p><details><summary>Abstract <span aria-hidden="true">+</span></summary><div class="abstract">${abstract}</div></details></div></article>`;
+    const posterLink = talk.poster
+      ? `<button class="poster-link" type="button" data-poster="${escapeHtml(talk.slug)}" aria-label="View poster for ${escapeHtml(talk.title)}">View poster</button>`
+      : "";
+    return `<article class="talk-card${featured ? " featured" : ""}"><div class="talk-content"><p class="talk-date">${featured ? "Next talk · " : ""}${formatDate(talk, !featured)} · ${escapeHtml(talk.start)}–${escapeHtml(talk.end)} Beijing</p><h3>${escapeHtml(talk.title)}</h3><p class="speaker">${speaker} <span>— ${escapeHtml(talk.affiliation)}</span></p><div class="talk-links">${posterLink}<details><summary>Abstract <span aria-hidden="true">+</span></summary><div class="abstract">${abstract}</div></details></div></div></article>`;
   }
 
   function render() {
@@ -54,7 +54,7 @@
 
       <section class="section page-width organizers" id="organizers">
         <h2>Organizers</h2>
-        <ul>${content.organizers.map((organizer) => `<li><strong>${escapeHtml(organizer.name)}</strong><span>${escapeHtml(organizer.affiliation)}</span></li>`).join("")}</ul>
+        <ul>${content.organizers.map((organizer) => `<li><strong>${safeUrl(organizer.website) ? `<a href="${safeUrl(organizer.website)}" target="_blank" rel="noreferrer">${escapeHtml(organizer.name)}</a>` : escapeHtml(organizer.name)}</strong><span>${escapeHtml(organizer.affiliation)}</span></li>`).join("")}</ul>
         <p class="contact">Contact: <a href="mailto:rmta.seminar@gmail.com">rmta.seminar@gmail.com</a></p>
       </section>
 

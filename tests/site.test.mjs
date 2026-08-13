@@ -7,7 +7,12 @@ test("build creates a self-contained seminar page", async () => {
   assert.match(html, /RMTA China — Online Seminar/);
   assert.match(html, /Benoît Collins/);
   assert.match(html, /Join mailing list/);
-  assert.match(html, /Poster not available/);
+  assert.match(html, /sites\.google\.com\/view\/zhigangbaohomepage/);
+  assert.match(html, /zhenyu-liao\.github\.io/);
+  assert.match(html, /yyxu3624\.github\.io\/homepage/);
+  assert.match(html, /lunzhangmaths\.github\.io/);
+  assert.match(html, /View poster/);
+  assert.doesNotMatch(html, /poster-placeholder|poster-button/);
   assert.match(html, /mathjax@4\/tex-chtml\.js/);
   assert.match(html, /inlineMath/);
   assert.ok(html.includes("\\\\frac{1}{\\\\sqrt{M}}"));

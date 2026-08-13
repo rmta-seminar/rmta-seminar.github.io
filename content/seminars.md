@@ -7,10 +7,10 @@ Schedule: The meetings will be held on Zoom and typically scheduled monthly on T
 
 ## Organizers
 
-- Zhigang Bao | University of Hong Kong
-- Zhenyu Liao | Huazhong University of Science and Technology
-- Yuanyuan Xu | AMSS, Chinese Academy of Sciences
-- Lun Zhang | Fudan University
+- Zhigang Bao | University of Hong Kong | https://sites.google.com/view/zhigangbaohomepage/
+- Zhenyu Liao | Huazhong University of Science and Technology | https://zhenyu-liao.github.io/
+- Yuanyuan Xu | AMSS, Chinese Academy of Sciences | https://yyxu3624.github.io/homepage/
+- Lun Zhang | Fudan University | https://lunzhangmaths.github.io/
 
 ## Talks
 
@@ -54,7 +54,7 @@ Website: https://sites.google.com/view/jun-yin/home
 Poster: 20260528.png
 Title: Delocalization of non-mean-field random operators with Gaussian entries
 Abstract:
-In this talk, I will discuss some disordered quantum systems beyond the mean-field regime. Last year, in joint work with H. T. Yau, we studied the delocalization conjecture for one-dimensional random band matrices by developing the loop hierarchy method and its tree approximation. Later, in joint work with S. Dubova, F. Yang, and H. T. Yau, we combined this framework with nested diagrammatic techniques previously used in high-dimensional analyses to construct a unified approach capable of handling non-mean-field operators in low dimensions. Most recently, jointly with J. Fan and F. Yang, we established delocalization for power-law random band matrices in the full regime of the decay exponent α > 0 of the variance profile. The key challenge is to address the interplay between the non-mean-field nature of the model and the slow decay of the variance profile.
+In this talk, I will discuss some disordered quantum systems beyond the mean-field regime. Last year, in joint work with H. T. Yau, we studied the delocalization conjecture for one-dimensional random band matrices by developing the loop hierarchy method and its tree approximation. Later, in joint work with S. Dubova, F. Yang, and H. T. Yau, we combined this framework with nested diagrammatic techniques previously used in high-dimensional analyses to construct a unified approach capable of handling non-mean-field operators in low dimensions. Most recently, jointly with J. Fan and F. Yang, we established delocalization for power-law random band matrices in the full regime of the decay exponent $\alpha > 0$ of the variance profile. The key challenge is to address the interplay between the non-mean-field nature of the model and the slow decay of the variance profile.
 
 ### tom-claeys-2026
 Date: 2026-04-23
@@ -76,9 +76,9 @@ Speaker: Peter Forrester
 Affiliation: University of Melbourne
 Website: http://www.ms.unimelb.edu.au/~pjforr@unimelb/
 Poster: 20260326.png
-Title: Aspects of large N expansions in random matrix theory
+Title: Aspects of large $N$ expansions in random matrix theory
 Abstract:
-Expansions in powers of 1/N in random matrix theory can be traced back to the study of moments for the GUE via graphical methods. In this presentation, a particular 1/N expansion for the mean of a smooth linear statistic for the Gaussian beta ensemble will be taken as the starting point. The shape of this expansion naturally leads to the question of the asymptotic expansion of the density, globally scaled and scaled near the edge. It also leads to the consideration of signed measures, which can be accessed via a loop equation analysis. Returning to the asymptotic expansion of the scaled density, one finds that there are “hidden” integrable structures at higher orders. Viewpoints on these in the context of differential equations satisfied by the density in the classical cases will be discussed.
+Expansions in powers of $1/N$ in random matrix theory can be traced back to the study of moments for the GUE via graphical methods. In this presentation, a particular $1/N$ expansion for the mean of a smooth linear statistic for the Gaussian beta ensemble will be taken as the starting point. The shape of this expansion naturally leads to the question of the asymptotic expansion of the density, globally scaled and scaled near the edge. It also leads to the consideration of signed measures, which can be accessed via a loop equation analysis. Returning to the asymptotic expansion of the scaled density, one finds that there are "hidden" integrable structures at higher orders. Viewpoints on these in the context of differential equations satisfied by the density in the classical cases will be discussed.
 
 ### afonso-bandeira-2025
 Date: 2025-12-11
@@ -116,7 +116,7 @@ Title: Kac–Rice inspired approach to non-Hermitian random matrices
 Abstract:
 We will discuss a method of analyzing the joint probability density of an eigenvalue z and the associated right eigenvector v, normalized with $\| v \| = 1$, for non-Hermitian random matrices of a given size $N \times  N$.
 
-To illustrate the utility of the general method, I will derive and analyze the joint probability density for two examples: a one-parameter family of matrices interpolating between complex Ginibre and real Ginibre ensembles, and a complex Ginibre matrix additively perturbed by a fixed matrix. In the former case I will discuss the formation of an excess of eigenvalues near the real axis on approaching the real Ginibre limit, giving rise to a new scaling regime of “weak non-reality” as N tends to infinity. In the second case, after providing the general joint probability density, I will briefly discuss a non-Hermitian Rosenzweig–Porter model. If time allows, I will discuss a generalization involving both left and right eigenvectors.
+To illustrate the utility of the general method, I will derive and analyze the joint probability density for two examples: a one-parameter family of matrices interpolating between complex Ginibre and real Ginibre ensembles, and a complex Ginibre matrix additively perturbed by a fixed matrix. In the former case I will discuss the formation of an excess of eigenvalues near the real axis on approaching the real Ginibre limit, giving rise to a new scaling regime of "weak non-reality" as N tends to infinity. In the second case, after providing the general joint probability density, I will briefly discuss a non-Hermitian Rosenzweig–Porter model. If time allows, I will discuss a generalization involving both left and right eigenvectors.
 
 ### courtney-paquette-2025
 Date: 2025-09-18
@@ -192,4 +192,4 @@ Website: https://dms.umontreal.ca/~benignil/
 Poster: 20250417.jpg
 Title: Spectrum of the Neural Tangent Kernel in a quadratic scaling
 Abstract:
-Despite their surplus of parameters, modern deep learning models often generalize well, a phenomenon exemplified by the “double descent curve.” While this behavior is theoretically grasped for problems such as ridge regression under linear scaling of dimensions, intriguing phenomena emerge under quadratic scaling, where sample size equals parameter count. In this presentation, we study the eigenvalues of the Neural Tangent Kernel, a matrix model pertinent to wide neural networks trained via gradient descent, within this quadratic regime.
+Despite their surplus of parameters, modern deep learning models often generalize well, a phenomenon exemplified by the "double descent curve."" While this behavior is theoretically grasped for problems such as ridge regression under linear scaling of dimensions, intriguing phenomena emerge under quadratic scaling, where sample size equals parameter count. In this presentation, we study the eigenvalues of the Neural Tangent Kernel, a matrix model pertinent to wide neural networks trained via gradient descent, within this quadratic regime.

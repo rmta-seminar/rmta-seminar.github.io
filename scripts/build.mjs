@@ -15,8 +15,8 @@ function parseSeminarContent(markdown) {
   };
 
   const organizers = organizersLines.filter((line) => line.startsWith("- ")).map((line) => {
-    const [name = "", affiliation = ""] = line.slice(2).split(" | ");
-    return { name: name.trim(), affiliation: affiliation.trim() };
+    const [name = "", affiliation = "", website = ""] = line.slice(2).split(" | ");
+    return { name: name.trim(), affiliation: affiliation.trim(), website: website.trim() };
   });
 
   const talks = talksBlock.split(/^### /m).slice(1).map((block) => {

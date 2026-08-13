@@ -112,6 +112,12 @@ dist/posters/         Generated copies of poster images
 
 Running `npm run build` replaces the generated files using the current Markdown and original images.
 
+Organizer entries in `content/seminars.md` use this format:
+
+```text
+- Name | Affiliation | Homepage URL
+```
+
 ## Live preview while editing
 
 Run:
