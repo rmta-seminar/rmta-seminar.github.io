@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Online talks on the theoretical and applied aspects of random matrix theory and related fields.">
+  <meta property="og:title" content="RMTA China — Online Seminar">
+  <meta property="og:description" content="Random Matrix Theory &amp; Applications">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="logo.jpg">
+  <title>RMTA China — Online Seminar</title>
+  <style>{{STYLES}}</style>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["\\(", "\\)"], ["$", "$"]],
+        displayMath: [["\\[", "\\]"], ["$$", "$$"]],
+        processEscapes: true
+      },
+      options: { skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+</head>
+<body>
+  <main id="site"></main>
+  <noscript>This website requires JavaScript to classify talks by date and display the programme.</noscript>
+  <script>window.SEMINAR_CONTENT={{CONTENT}};</script>
+  <script>{{SCRIPT}}</script>
+</body>
+</html>
