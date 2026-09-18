@@ -14,6 +14,18 @@ Schedule: The meetings will be held on Zoom and typically scheduled monthly on T
 
 ## Talks
 
+
+### jon-keating-2026
+Date: 2026-10-22
+Start: 17:00
+End: 18:00
+Speaker: Jon Keating
+Affiliation: Mathematical Institute, University of Oxford
+Website: https://www.maths.ox.ac.uk/people/jon.keating
+Poster: 
+Title: TBD
+Abstract: TBD
+
 ### benoit-collins-2026
 Date: 2026-08-21
 Start: 15:15
