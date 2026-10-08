@@ -22,9 +22,9 @@ End: 18:00
 Speaker: Jon Keating
 Affiliation: Mathematical Institute, University of Oxford
 Website: https://www.maths.ox.ac.uk/people/jon.keating
-Poster: 
-Title: TBD
-Abstract: TBD
+Poster: 20261022.png
+Title: Joint Moments
+Abstract: I will discuss recent progress concerning the calculation of the joint moments of the characteristic polynomials of random unitary matrices and their derivatives.  I will, in particular, draw attention to the role played by solutions of some of the Painlevé equations. 
 
 ### benoit-collins-2026
 Date: 2026-08-21
